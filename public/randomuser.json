@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": { "title": "Ms", "first": "Elif", "last": "Tokatlıoğlu" },
+      "location": {
+        "street": { "number": 9685, "name": "Talak Göktepe Cd" },
+        "city": "Yalova",
+        "state": "Balıkesir",
+        "country": "Turkey",
+        "postcode": 50280,
+        "coordinates": { "latitude": "76.1154", "longitude": "124.4023" },
+        "timezone": {
+          "offset": "+2:00",
+          "description": "Kaliningrad, South Africa"
+        }
+      },
+      "email": "elif.tokatlioglu@example.com",
+      "login": {
+        "uuid": "5cf8f4f1-7234-4d34-a5ee-2e0d9f095206",
+        "username": "whitedog925",
+        "password": "tacoma",
+        "salt": "lnq1os3u",
+        "md5": "284ef446f158a49921be286475c1285e",
+        "sha1": "6b858a2ff2661c57e955bf986b4e728def2add3c",
+        "sha256": "c153bf39b1d007e3e25ce91b1cfca9abc5cc4930804e011b89b1c419a79d2c5c"
+      },
+      "dob": { "date": "1947-03-20T07:56:35.703Z", "age": 74 },
+      "registered": { "date": "2017-02-01T13:55:11.878Z", "age": 4 },
+      "phone": "(905)-310-4720",
+      "cell": "(069)-368-1988",
+      "id": { "name": "", "value": null },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/55.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/55.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/55.jpg"
+      },
+      "nat": "TR"
+    }
+  ],
+  "info": {
+    "seed": "cdd61c22a198b02d",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}
