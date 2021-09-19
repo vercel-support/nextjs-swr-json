@@ -1,12 +1,12 @@
-import useSWR from 'swr'
-import Head from 'next/head'
+import useSWR from "swr";
+import Head from "next/head";
 
 const fetcher = (url) => fetch(url).then((r) => r.json());
 
 export default function Home() {
-  const { data, error } = useSWR('/randomuser.json', fetcher);
-  if (error) return <div>failed to load</div>
-  if (!data) return <div>loading...</div>
+  const { data, error } = useSWR("/randomuser.json", fetcher);
+  if (error) return <div>failed to load</div>;
+  if (!data) return <div>loading...</div>;
   return (
     <div>
       <Head>
@@ -20,12 +20,15 @@ export default function Home() {
         <h2>Instructions</h2>
         <ul>
           <li>Place the json file inside the public folder</li>
-          <li>Use SWR to load the file using "useSWR('/randomuser.json', fetcher);"</li>
+          <li>
+            Use SWR to load the file from "/randomuser.json".
+          </li>
         </ul>
         <h3>Loaded Data</h3>
-        <p>Name: {data.results[0].name.first} {data.results[0].name.last}</p>
+        <p>
+          Name: {data.results[0].name.first} {data.results[0].name.last}
+        </p>
       </div>
-      
     </div>
   );
 }
