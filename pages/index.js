@@ -20,9 +20,7 @@ export default function Home() {
         <h2>Instructions</h2>
         <ul>
           <li>Place the json file inside the public folder</li>
-          <li>
-            Use SWR to load the file from "/randomuser.json".
-          </li>
+          <li>Use SWR to load the file from /randomuser.json</li>
         </ul>
         <h3>Loaded Data</h3>
         <p>
