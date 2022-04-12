@@ -16,15 +16,15 @@ export default function Home() {
       </Head>
 
       <div>
-        <h1>Example for loading a static json file using SWR</h1>
+        <h1>Example for loading external json file using SWR</h1>
         <h2>Instructions</h2>
         <ul>
-          <li>Place the json file inside the public folder</li>
-          <li>Use SWR to load the file from /randomuser.json</li>
+          <li>Host your json data file on an external server like S3 or heroku</li>
+          <li>Use SWR to load the file</li>
         </ul>
-        <h3>Loaded Data</h3>
+        <h3>Loaded from https://json-host.herokuapp.com/db</h3>
         <p>
-          Name: {data.results[0].name.first} {data.results[0].name.last}
+          ID: {data.data.id} {data.data.uid}
         </p>
       </div>
     </div>
